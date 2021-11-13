@@ -112,7 +112,8 @@ void Method(
 
     bool z = (a > 3) && (a < 5);
     bool w = b.StartsWith("hello");
-    if (z && w) {
+    if (z && w)
+    {
         Code();
     }
 }
@@ -157,7 +158,8 @@ int b = (a + (5 * 2)) / (3 + 3);
 * :heavy_check_mark: **DO** indent `case` statements:
 
 ```csharp
-switch (a) {
+switch (a) 
+{
     case 3:
         c = "hello";
         break;
